@@ -16,45 +16,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDe-4Q-Uvi" userLabel="FirstButton">
-                                <rect key="frame" x="132" y="433" width="150" height="30"/>
-                                <state key="normal" title="Sign in with Facebook"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDe-4Q-Uvi" userLabel="FirstButton">
+                                <rect key="frame" x="64.5" y="413.5" width="285" height="69"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Sign in with Facebook" backgroundImage="FB">
+                                    <color key="titleColor" red="0.95555853950000003" green="1" blue="0.94688950719999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m2x-ba-fh6" userLabel="SecondButton">
-                                <rect key="frame" x="139" y="520" width="143" height="30"/>
-                                <state key="normal" title="Sign in with Google"/>
+                                <rect key="frame" x="65" y="539.5" width="285" height="69"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Sign in with Google" backgroundImage="Google"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUM-Xk-zRF" userLabel="ThirdButton">
-                                <rect key="frame" x="139" y="605" width="143" height="30"/>
-                                <state key="normal" title="Sign in with Email"/>
+                                <rect key="frame" x="65" y="663.5" width="286" height="69"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Sign in with Email" backgroundImage="Email"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login or Create Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pX8-X1-gwf">
-                                <rect key="frame" x="112" y="355" width="190" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="    Tutoring       Easy" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLt-Po-0Ek">
-                                <rect key="frame" x="139" y="137" width="137" height="109"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="    Tutoring       Easy" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLt-Po-0Ek">
+                                <rect key="frame" x="139" y="136" width="137" height="68.5"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="31"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" systemColor="opaqueSeparatorColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Login or Create an Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pX8-X1-gwf">
+                                <rect key="frame" x="112" y="355" width="213" height="24"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.95555853950960412" green="1" blue="0.94688950724337917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
-                            <constraint firstItem="qDe-4Q-Uvi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6L9-UD-8mk"/>
-                            <constraint firstItem="m2x-ba-fh6" firstAttribute="top" secondItem="qDe-4Q-Uvi" secondAttribute="bottom" constant="57" id="FXd-6f-bjZ"/>
-                            <constraint firstItem="qDe-4Q-Uvi" firstAttribute="top" secondItem="rLt-Po-0Ek" secondAttribute="bottom" constant="200" id="G8c-mW-vhq"/>
-                            <constraint firstItem="TUM-Xk-zRF" firstAttribute="top" secondItem="m2x-ba-fh6" secondAttribute="bottom" constant="55" id="Ijl-G3-FzK"/>
-                            <constraint firstItem="qDe-4Q-Uvi" firstAttribute="top" secondItem="rLt-Po-0Ek" secondAttribute="bottom" constant="243.5" id="MWH-yb-wFi"/>
-                            <constraint firstItem="qDe-4Q-Uvi" firstAttribute="top" secondItem="rLt-Po-0Ek" secondAttribute="bottom" constant="30" id="pPS-7G-H2t"/>
-                            <constraint firstItem="qDe-4Q-Uvi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s4r-lo-qrd"/>
-                            <constraint firstItem="qDe-4Q-Uvi" firstAttribute="top" secondItem="rLt-Po-0Ek" secondAttribute="bottom" constant="50" id="vog-px-IyN"/>
+                            <constraint firstItem="pX8-X1-gwf" firstAttribute="top" secondItem="rLt-Po-0Ek" secondAttribute="bottom" constant="150.5" id="1fy-aO-GYM"/>
+                            <constraint firstItem="m2x-ba-fh6" firstAttribute="top" secondItem="qDe-4Q-Uvi" secondAttribute="bottom" constant="20" id="SsZ-Fk-6aR"/>
+                            <constraint firstItem="qDe-4Q-Uvi" firstAttribute="top" secondItem="pX8-X1-gwf" secondAttribute="bottom" constant="10" id="ep9-aC-B3j"/>
+                            <constraint firstItem="TUM-Xk-zRF" firstAttribute="top" secondItem="m2x-ba-fh6" secondAttribute="bottom" constant="20" id="pyR-kf-ovn"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -64,6 +67,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Email" width="285" height="69"/>
+        <image name="FB" width="285" height="69"/>
+        <image name="Google" width="285" height="69"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
