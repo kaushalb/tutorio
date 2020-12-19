@@ -17,24 +17,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDe-4Q-Uvi" userLabel="FirstButton">
-                                <rect key="frame" x="184" y="433" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="132" y="433" width="150" height="30"/>
+                                <state key="normal" title="Sign in with Facebook"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m2x-ba-fh6" userLabel="SecondButton">
-                                <rect key="frame" x="184" y="520" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="139" y="520" width="143" height="30"/>
+                                <state key="normal" title="Sign in with Google"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUM-Xk-zRF" userLabel="ThirdButton">
-                                <rect key="frame" x="184" y="605" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="139" y="605" width="143" height="30"/>
+                                <state key="normal" title="Sign in with Email"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login or Create Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pX8-X1-gwf">
+                                <rect key="frame" x="112" y="355" width="190" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="    Tutoring       Easy" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLt-Po-0Ek">
+                                <rect key="frame" x="139" y="137" width="137" height="109"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="qDe-4Q-Uvi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6L9-UD-8mk"/>
+                            <constraint firstItem="m2x-ba-fh6" firstAttribute="top" secondItem="qDe-4Q-Uvi" secondAttribute="bottom" constant="57" id="FXd-6f-bjZ"/>
+                            <constraint firstItem="qDe-4Q-Uvi" firstAttribute="top" secondItem="rLt-Po-0Ek" secondAttribute="bottom" constant="200" id="G8c-mW-vhq"/>
                             <constraint firstItem="TUM-Xk-zRF" firstAttribute="top" secondItem="m2x-ba-fh6" secondAttribute="bottom" constant="55" id="Ijl-G3-FzK"/>
+                            <constraint firstItem="qDe-4Q-Uvi" firstAttribute="top" secondItem="rLt-Po-0Ek" secondAttribute="bottom" constant="243.5" id="MWH-yb-wFi"/>
+                            <constraint firstItem="qDe-4Q-Uvi" firstAttribute="top" secondItem="rLt-Po-0Ek" secondAttribute="bottom" constant="30" id="pPS-7G-H2t"/>
                             <constraint firstItem="qDe-4Q-Uvi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s4r-lo-qrd"/>
+                            <constraint firstItem="qDe-4Q-Uvi" firstAttribute="top" secondItem="rLt-Po-0Ek" secondAttribute="bottom" constant="50" id="vog-px-IyN"/>
                         </constraints>
                     </view>
                 </viewController>
